@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #111;
+     padding-left: 35rem;
+}
+header{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;
+    width:35rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .about img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    //border:.7rem solid yellow;
+}
+header .about .name{
+    font-size: 3.5rem;
+    color:#fff;
+}
+header .about .post{
+    font-size: 2rem;
+    color:#eee;
+}
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    list-style-type: none;
+}
+
+header .navbar ul li a:hover{
+    background:rgb(0, 195, 255);
+}
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+section{
+    min-height: 70vh;
+    padding:1rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+}
+
+.home h3{
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.home h1{
+    font-size:5rem;
+    color:#fff;
+}
+
+.home h1 span{
+    color:yellow;
+}
+
+.home p{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+.btn0{
+    padding: 20px;
+}
+.btn{
+    padding:.7rem 3rem;
+    background:seagreen;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+     float: right;
+    width: 150px;
+    height: 50px; 
+}
+
+
+.btn:hover{
+    background:aqua;
+    color: black;
+}
+.bat{
+    margin-left: 500px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 300px;
+    background: #111;
+   
+    color: #eee;
+    /border-radius: 30%;
+}
+.bat1:hover{
+    background:seagreen;
+} 
+.bat2:hover{
+    background:seagreen;
+} 
+.bat3:hover{
+    background:seagreen;
+} 
+.bat1{
+    font-size: 16px;
+    padding: 0px;
+    color: aqua;
+    background-color: #111;
+    margin-right: 10px;
+    margin-right: 70px;
+
+
+}
+.bat2{
+    font-size: 16px;
+    padding: 10px;
+    color: #eee;
+    background-color: #1a1a1a;
+    margin-right: 2px
+    width:50px;
+}
+h2{
+    color: seagreen;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 19px;
+    border-bottom: 1px solid sienna;
+}
+.a{
+    float:right;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li.a{
+    color: #eee;
+    width: 40px;
+    display: inline;
+    float: left;
+    width: 40%;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 55px;
+    
+}
+p{
+    //margin-top: 20px;
+}
+h1.edu{
+    color: seagreen;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid sienna;
+    padding-top: 500px;
+    padding-bottom: 30px;
+}
+table, th, td {
+    border:1px solid #eee;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+    width: 100px;
+    align-items: center;
+    margin-left: 50px;
+  }
+  h4{
+      color: #eee;
+      font-size: 30px;
+      padding: 10px;
+  }
+  h1.edu1{
+    color: seagreen;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid sienna;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .img1{
+      height: 260px;
+      width: 300px;
+  }
+  .img1{
+      margin-left: 15px;
+  }
+  .select{
+      width: 80%;
+      height: 700px;
+      //background-color: cadetblue;
+      margin-left: 150px;
+      box-shadow: 10px 10px 10px 10px;
+  }
+  input{
+      width: 90%;
+      height: 40px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      background-color: #1a1a1a;
+      color: aqua;
+      box-shadow: 0px 0px 5px 4px #333;
+      margin-top: 10px;
+      
+  }
+.sent{
+    width: 200px;
+    float: right;
+    margin-right: 80px;
+}
